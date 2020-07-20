@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText android:id="@+id/etUid"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="输入uid">
+    </EditText>
+
+    <Button android:id="@+id/btnGetState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取实名信息">
+    </Button>
+
+    <EditText android:id="@+id/etMoney"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="number"
+        android:hint="输入商品金额">
+    </EditText>
+
+    <Button android:id="@+id/btnGetPayState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取支付限制">
+    </Button>
+
+    <EditText android:id="@+id/etItemId"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="输入商品id">
+    </EditText>
+
+    <Button android:id="@+id/btnSendPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交商品信息">
+    </Button>
+
+    <Button android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注销当前账户">
+    </Button>
+
+
+
+</LinearLayout>
