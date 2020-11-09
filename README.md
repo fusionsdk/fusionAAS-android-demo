@@ -76,7 +76,7 @@ b) 在`AndroidManifest.xml`文件中的application标签下添加属性`android:
 
 #### 2.3 META添加
 
-![](_imgs/readme_03.png)
+`<meta-data android:name="BASE_URL" android:value="http://demo.aas.fusionsdk.com/"></meta-data>`
 
 这里添加当前防成迷系统的自定义域名，请将我们提供的开源版的[fusionAAS](https://gitee.com/fusionsdk/fusionaas)部署到正式环境，并将系统的域名填入到META值中。
 
