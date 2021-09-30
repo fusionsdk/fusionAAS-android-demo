@@ -45,6 +45,8 @@ b) 在`AndroidManifest.xml`文件中的application标签下添加属性`android:
 
 ![](_imgs/readme_01.png)
 
+c) `res/values/strings.xml`里配置了SDK界面中使用的文字内容，如果需要替换，可以修改此文件；研发可自行合并`string.xml`中的键值到游戏的项目程序中。
+
 ### 2. 权限和Activity配置
 
 #### 2.1 权限列表
@@ -212,3 +214,7 @@ FusionAntiSdk.getInstance().onActivityResult(requestCode, resultCode, data);
 ```
 
 - 在游戏主Activity中重写即可
+
+### 4. 界面配置
+
+根据需要，可以替换SDK中防沉迷相关界面涉及到的文字内容，请针对`res/values/strings.xml`文件进行编辑。

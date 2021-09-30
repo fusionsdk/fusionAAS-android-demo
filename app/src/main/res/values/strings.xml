@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">FusionAntiDemo</string>
+    <string name="app_name">fusion_anti_addiction_sdk</string>
+    <!-- sdk需要配置的title   -->
+    <string name="RealNameTitle">实名认证提示</string>
+    <string name="GuestTimeLimitTitle">游客时长提示</string>
+    <string name="JuvenilesTimeLimitTitle">防成迷提示</string>
+    <string name="JuvenilesPayLimitTitle">充值限制提示</string>
+    <!-- sdk需要配置的text   -->
+    <string name="RealNameMessage">您当前为游客模式，对使用同一硬件设备的用户，在15天内只有1小时的游戏体验时间。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，用户需要使用有效的证件进行实名认证才能完整体验游戏内容。\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，游客有60分钟体验时间，在此模式下不能充值和付费消费。</string>
+    <string name="GuestTimeLimitMessage">您当前为游客模式，可体验60分钟，还剩下0分钟。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，用户需要使用有效的证件进行实名认证才能完整体验游戏内容。</string>
+    <string name="JuvenilesTimeLimitMessage1">您目前为未成年人账号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，每日22时至次日8时，本游戏将无法为未成年人用户提供游戏服务。</string>
+    <string name="JuvenilesTimeLimitMessage2">您目前为未成年人账号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，非法定节假日期间，未成年账号每日累计游戏不得超过90分钟，目前已超出健康游戏体验时间，将强制游戏下线。</string>
+    <string name="JuvenilesTimeLimitMessage3">您目前为未成年人账号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，法定节假日期间，未成年账号每日累计游戏不得超过180分钟，目前已超出健康游戏体验时间，将强制游戏下线。</string>
+    <string name="JuvenilesPayLimitMessage1">您目前为未成年人账号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，本游戏不为未满8周岁的用户提供游戏充值服务。</string>
+    <string name="JuvenilesPayLimitMessage2">您目前为未成年人账号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，游戏中8周岁以上未满16周岁的用户，单次充值金额不得超过50元人民币，每月充值金额不得超过200元人民币。</string>
+    <string name="JuvenilesPayLimitMessage3">您目前为未成年人账号，已被纳入防沉迷系统。根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》，游戏中16周岁以上未满18周岁的用户，单次充值金额不得超过100元人民币，每月充值金额不得超过400元人民币。</string>
+    <!-- 按钮文字 -->
+    <string name="RealNameConfirm">实名认证</string>
+    <string name="RealNameCancle">取消</string>
 </resources>
